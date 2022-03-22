@@ -46,8 +46,7 @@ void setup() {
 uint32_t counter = 0;
 void loop() {
   // read analog value and asign the value into sensorValue
-  sensorValue = analog
-  Read(sensorPin);
+  sensorValue = analogRead(sensorPin);
   Serial.println(sensorValue);  
 
   // these two lines means that some object has come
